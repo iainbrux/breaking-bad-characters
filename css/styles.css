@@ -13,34 +13,6 @@ nav,
   justify-content: center;
 }
 
-label,
-nav {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  align-items: center;
-}
-
-label {
-    font-size: 35px;
-}
-
-p {
-  margin: 3px 0;
-}
-
-nav select {
-  margin: 20px 0;
-  text-align: center;
-  min-width: 20%;
-  max-height: 15%;
-  font-size: 10px;
-  border-radius: 5px;
-  padding: 5px;
-  outline: none;
-  font-size: 20px;
-}
-
 header {
   font-size: 50px;
   margin-top: 2%;
@@ -55,6 +27,34 @@ header h1 {
   background-color: white;
   margin: 0;
   padding: 1rem 0 0 0;
+}
+
+nav,
+label {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+nav select {
+  margin: 20px 0;
+  text-align: center;
+  min-width: 20%;
+  max-height: 15%;
+  font-size: 10px;
+  border-radius: 5px;
+  padding: 5px;
+  outline: none;
+  font-size: 20px;
+}
+
+label {
+  font-size: 35px;
+}
+
+p {
+  margin: 3px 0;
 }
 
 header.header {
@@ -88,20 +88,8 @@ h5 {
   margin-top: 0.5rem;
 }
 
-.character-card img {
-  margin: 5%;
-  max-width: 88%;
-}
-
 .container {
   width: 100%;
-}
-
-.character-card h3 {
-  font-size: 35px;
-  text-align: center;
-  color: navy;
-  max-width: 90%;
 }
 
 .character-card {
@@ -117,6 +105,18 @@ h5 {
   box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
     0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
     0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086);
+}
+
+.character-card img {
+  margin: 5%;
+  max-width: 88%;
+}
+
+.character-card h3 {
+  font-size: 35px;
+  text-align: center;
+  color: navy;
+  max-width: 90%;
 }
 
 .name,
@@ -153,15 +153,15 @@ h5 {
   }
 
   header {
-      font-size: 40px;
+    font-size: 40px;
   }
 
   h5 {
     font-size: 15px;
   }
-  
+
   label {
-      font-size: 25px;
+    font-size: 25px;
   }
 
   .name,
