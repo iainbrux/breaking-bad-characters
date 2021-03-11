@@ -2,7 +2,7 @@ fetch("https://breakingbadapi.com/api/characters")
   .then((res) => res.json())
   .then((json) => {
     let selection = document.querySelector("#dropdown");
-    selection.addEventListener("click", () => {
+    selection.addEventListener("change", () => {
       const container = document.querySelector(".container");
       container.innerHTML = "";
 
