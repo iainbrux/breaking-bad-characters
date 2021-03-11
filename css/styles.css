@@ -21,12 +21,16 @@ nav {
   align-items: center;
 }
 
+label {
+    font-size: 35px;
+}
+
 p {
   margin: 3px 0;
 }
 
 nav select {
-  margin-top: 5px;
+  margin: 20px 0;
   text-align: center;
   min-width: 20%;
   max-height: 15%;
@@ -34,13 +38,15 @@ nav select {
   border-radius: 5px;
   padding: 5px;
   outline: none;
+  font-size: 20px;
 }
 
 header {
-  font-size: 25px;
+  font-size: 50px;
   margin-top: 2%;
   color: navy;
   font-weight: 900;
+  text-align: center;
 }
 
 header h1 {
@@ -58,7 +64,7 @@ header.header {
 }
 
 h5 {
-  font-size: 10px;
+  font-size: 20px;
   text-align: center;
 }
 
@@ -84,7 +90,7 @@ h5 {
 
 .character-card img {
   margin: 5%;
-  max-width: 90%;
+  max-width: 88%;
 }
 
 .container {
@@ -92,16 +98,17 @@ h5 {
 }
 
 .character-card h3 {
-  font-size: 15px;
+  font-size: 35px;
   text-align: center;
   color: navy;
   max-width: 90%;
 }
 
 .character-card {
-  border: 2px solid grey;
-  border-radius: 10px;
-  width: 180px;
+  border: 4px solid grey;
+  border-radius: 25px;
+  min-width: 300px;
+  width: 18%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -117,7 +124,7 @@ h5 {
 .nickname,
 .portrayed,
 .status {
-  font-size: 10px;
+  font-size: 20px;
 }
 
 .status {
@@ -145,8 +152,16 @@ h5 {
     font-size: 20px;
   }
 
+  header {
+      font-size: 40px;
+  }
+
   h5 {
-    font-size: 13px;
+    font-size: 15px;
+  }
+  
+  label {
+      font-size: 25px;
   }
 
   .name,
