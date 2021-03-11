@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <script src="./js/index.js" defer></script>
+
+    <title>Breaking bad API exercise</title>
+  </head>
+  <body>
+    <!--<header class="header">
+            <h1><img src="https://www.publicpartnerships.com/media/oknbmqnn/test-ppl-logo-pngv2.png?anchor=center&amp;mode=crop&amp;width=293&amp;height=62&amp;rnd=132412845072670000" alt="PPL logo"></h1>
+            <div class="instruction-container">
+
+                <div class="instructions">
+                    <h2>
+                        Please complete the following set of requirements. Please refer to the <a href="https://xd.adobe.com/view/ec901d32-e5b5-4132-8d7e-68f759a86ace-b9c3/" target="_blank">XD mockup</a>.
+                    </h2>
+                    <ul>
+                        <li>Add a header 'Breaking Bad characters' to the 'main' element above the select menu</li>
+                        <li>Populate the rest of the characters details to include:
+                            <ul>
+                                <li>Birthday</li>
+                                <li>Nickname</li>
+                                <li>Portrayed by</li>
+                                <li>Status</li>
+                            </ul>
+                        </li>
+                        <li>
+                            Add your own markup to build the character tiles
+                        </li>
+                        <li>
+                            Use CSS to style the character tiles
+                        </li>
+                    </ul>
+                </div>
+                <div class="instructions">
+                    <h2>
+                        Extra nice to haves:
+                    </h2>
+                    <ul>
+                        <li>Get the dropdown filter to work so that 'Breaking Bad' and 'Better Call Saul' characters filter out. Refer to the <a href="https://breakingbadapi.com/documentation" target="_blank">Breaking Bad API doc</a> if needed.</li>
+                        <li>Add some logic so that the tiles border and background colours change depending on the characters status</li>
+                        <li>Make the whole layout responsive across different devices</li>
+                    </ul>
+                </div>
+            </div>
+            
+        </header>-->
+
+    <header>Breaking Bad Characters</header>
+    <h5>Subtitle goes here</h2>
+
+    <nav>
+      <label for="show-selection">Select a show
+      <select name="dropdown" id="dropdown">
+        <option value="select-category">- Select a category -</option>
+        <option value="breaking-bad">Breaking Bad</option>
+        <option value="better-call-saul">Better Call Saul</option>
+      </select>
+    </label>
+    </nav>
+    <main class="js-main">
+      <div class="container"></div>
+    </main>
+    <footer></footer>
+  </body>
+</html>
